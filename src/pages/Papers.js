@@ -70,9 +70,9 @@ const Papers = () => {
             </tbody>
           </table>
           <div className="flex flex-row items-center justify-center">
-          <button className="border border-black rounded-2xl bg-customgray mt-[60px] w-[150px] font-bold py-[3px]">Upload New Data</button>
+          <a href="/newdata"><button className="border border-black rounded-2xl bg-customgray mt-[60px] w-[150px] font-bold py-[3px]">Upload New Data</button></a>
           </div>
-        </div>c
+        </div>
       </div>
     </div>
   );
