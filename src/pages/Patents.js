@@ -13,9 +13,7 @@ const Patents = () => {
           <a className="text-customwhite py-[33px]">
             Other Noteworthy Activities
           </a>
-          <button className="bg-customblack text-customwhite rounded-2xl my-[25px] px-[20px]">
-            Logout
-          </button>
+          <button className='bg-customblack text-customwhite rounded-2xl my-[25px] px-[20px]'><a href='/'>Logout</a></button>
         </div>
       </div>
       <div className="flex flex-row">
@@ -40,7 +38,7 @@ const Patents = () => {
         </div>
         <div className="flex flex-col mx-[40px] w-[1260px]">
           <label className="pt-[20px] font-bold text-4xl underline">
-            Papers
+            Patents
           </label>
           <table class="border-collapse border border-slate-500 mt-[30px] bg-customgray">
             <thead>
@@ -70,7 +68,7 @@ const Patents = () => {
             </tbody>
           </table>
           <div className="flex flex-row items-center justify-center">
-          <button className="border border-black rounded-2xl bg-customgray mt-[60px] w-[150px] font-bold py-[3px]">Upload New Data</button>
+          <a href="/newdata"><button className="border border-black rounded-2xl bg-customgray mt-[60px] w-[150px] font-bold py-[3px]">Upload New Data</button></a>
           </div>
         </div>
       </div>

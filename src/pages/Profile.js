@@ -11,7 +11,7 @@ const Profile = () => {
                 <a href="/papers" className='text-customwhite py-[33px]'>Papers/Patents</a>
                 <a className='text-customwhite py-[33px]'>Funds Received</a>
                 <a className='text-customwhite py-[33px]'>Other Noteworthy Activities</a>
-                <button className='bg-customblack text-customwhite rounded-2xl my-[25px] px-[20px]'>Logout</button>
+                <button className='bg-customblack text-customwhite rounded-2xl my-[25px] px-[20px]'><a href='/'>Logout</a></button>
             </div>
         </div>
         <div className='flex flex-row'>
