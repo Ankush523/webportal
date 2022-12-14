@@ -8,7 +8,8 @@ const Profile = () => {
             <img src={SRMLogo} alt="SRM Logo" className='h-[90px]'/>
             <div className='flex flex-row justify-between bg-navbarblue rounded-2xl font-bold w-[1300px] px-[70px]'>
                 <a className='text-customwhite py-[33px]'>Awards</a>
-                <a href="/papers" className='text-customwhite py-[33px]'>Papers/Patents</a>
+                <a href="/papers" className='text-customwhite py-[33px]'>Papers</a>
+                <a href="/patents" className='text-customwhite py-[33px]'>Patents</a>
                 <a className='text-customwhite py-[33px]'>Funds Received</a>
                 <a className='text-customwhite py-[33px]'>Other Noteworthy Activities</a>
                 <button className='bg-customblack text-customwhite rounded-2xl my-[25px] px-[20px]'><a href='/'>Logout</a></button>
